@@ -58,9 +58,36 @@ li {
     padding: 10px 0;
     background-color: #717fe0;
 }
+.m-m-home {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.active {
+    display: block !important;
+}
+.m-m-home span {
+    padding-right: 15px;
+}
 .mobile-main-menu li a {
     color: white;
-    padding: 8px 20px;
+    padding: 5px 20px;
+    margin: 5px;
     font-size: 15px;
     height: 100%;
+    display: inline-block;
 }
+.mobile-main-menu li:hover {
+    background-color: rgb(186, 187, 187);
+  }
+  .sub-menu-m {
+    display: none;
+    color: #666;
+    background-color: white;
+    padding: 10px 15px 10px 32px;
+    font-size: 15px;
+  }
+  .sub-menu-m li {
+    padding: 5px 0;
+  }
