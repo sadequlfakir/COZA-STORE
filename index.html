@@ -17,10 +17,10 @@
                 <i class="fa-solid fa-magnifying-glass search-ico head-icon"></i>
                 <i class="fa-solid fa-cart-shopping head-icon"></i>
                 <i class="fa-solid fa-heart head-icon"></i>
-                <i class="fa-solid fa-bars head-icon"></i>
+                <i onclick="menuHandler(event)" class="fa-solid fa-bars head-icon"></i>
             </div>
         </div>
-        <div class="h-mobile-menu">
+        <div id="menu" class="h-mobile-menu">
             <ul class="top-bar-mobile">
                 <li class="f-s-0-100">
                     <div class="left-top-bar">
@@ -37,11 +37,10 @@
                 </li>
             </ul>
             <ul class="mobile-main-menu">
-                <li onclick="submenuHandler(event)" class="m-m-home">
+                <li onclick="submenuHandler(event)" class="m-m-home" id="mmmhome">
                     <a href="">Home</a>
                     <span><i class="fa-solid fa-angle-right"></i></i></span>
                 </li>
-
                 <ul id="submenu" class="sub-menu-m">
                     <li>Homepage 1</li>
                     <li>Homepage 2</li>
@@ -66,9 +65,24 @@
         </div>
     </header>
     <section>
+        <div class="slide"></div>
+    </section>
+    <section>
         <div class="full-page">
             <div class="category">
-                <div class="cat1"></div>
+                <div class="cat1">
+                    <img src="./assets/photo/catogery-photo/xbanner-01.jpg.pagespeed.ic.Uj5FE94mgU.webp" alt="">
+                    <a href="">
+                        <div class="dp-flex">
+                            <span class="cat-w">
+                                Women
+                            </span>
+                            <span class="">
+                                Spring 2018
+                            </span>
+                        </div>
+                    </a>
+                </div>
                 <div class="cat1"></div>
                 <div class="cat1"></div>
             </div>

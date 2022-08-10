@@ -10,6 +10,9 @@ a {
 li {
     list-style: none;
 }
+.dp-flex {
+    display: flex;
+}
 .header-menu {
     display: flex;
     align-items: center;
@@ -29,6 +32,9 @@ li {
 }
 .search-ico {
     padding-left: 0;
+}
+.h-mobile-menu {
+    display: none;
 }
 .left-top-bar {
     font-size: 13px;
@@ -63,12 +69,18 @@ li {
     color: white;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+#mmhome:hover span.fa-angel-right {
+    transform: rotate(90deg);
+    transition: all, 0.4s;
 }
 .active {
     display: block !important;
 }
 .m-m-home span {
     padding-right: 15px;
+    cursor: pointer;
 }
 .mobile-main-menu li a {
     color: white;
@@ -84,8 +96,36 @@ li {
     background-color: white;
     padding: 10px 15px 10px 32px;
     font-size: 15px;
+    transition: all, 0.20s;
 }
 .sub-menu-m li {
     padding: 5px 0;
     background-color: none;
+    cursor: pointer;
+}
+.full-page {
+    padding: 0 15px;
+}
+.cat1 {
+    position: relative;
+    border: 1px solid #e6e6e6;
+}
+.cat1 img {
+    width: 100%;
+}
+.cat1 a {
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: rgb(48, 47, 47);
+}
+.cat1 a div .cat-w {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.1;
+    padding-bottom: 8px;
+    width: 114px;
 }
