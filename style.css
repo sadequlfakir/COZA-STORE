@@ -78,16 +78,14 @@ li {
     height: 100%;
     display: inline-block;
 }
-.mobile-main-menu li:hover {
-    background-color: rgb(186, 187, 187);
-  }
-  .sub-menu-m {
+.sub-menu-m {
     display: none;
     color: #666;
     background-color: white;
     padding: 10px 15px 10px 32px;
     font-size: 15px;
-  }
-  .sub-menu-m li {
+}
+.sub-menu-m li {
     padding: 5px 0;
-  }
+    background-color: none;
+}
