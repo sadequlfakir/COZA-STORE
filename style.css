@@ -154,7 +154,7 @@ li {
 }
 .cat-s-now {
     border-bottom: 2px solid #fff ;
-    transform: scaleY(0);
+    transform: scaleYGIT(0);
     overflow: hidden;
     transition: all 0.5s;
     padding-bottom: 4px;
