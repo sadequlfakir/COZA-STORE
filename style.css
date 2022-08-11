@@ -122,10 +122,14 @@ li {
     vertical-align: middle;
 }
 .cat1-w a {
-    padding: 20px;
     position: absolute;
     left: 0;
     top: 0;
+    width: 100%;
+    height: 100%;
+}
+.cat1-w a .cat1-text-side{
+    
     justify-content: space-between;
     align-items: flex-start;
     color: rgb(48, 47, 47);
@@ -135,7 +139,7 @@ li {
     width: 100%;
     height: 100%;
 }
-.cat1-w a:hover {
+.cat1-w a .cat1-text-side:hover {
     background-color: rgba(103,117,214,0.8);
    
 }
