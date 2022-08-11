@@ -107,13 +107,21 @@ li {
     padding: 0 15px;
 }
 .cat1 {
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.cat1-w {
     position: relative;
     border: 1px solid #e6e6e6;
+    display: block;
 }
-.cat1 img {
+.cat1-w img {
     width: 100%;
+    vertical-align: middle;
 }
-.cat1 a {
+.cat1-w a {
     padding: 20px;
     position: absolute;
     left: 0;
@@ -121,11 +129,27 @@ li {
     justify-content: space-between;
     align-items: flex-start;
     color: rgb(48, 47, 47);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    width: 100%;
+    height: 100%;
 }
-.cat1 a div .cat-w {
-    font-size: 25px;
+.cat1-w a:hover {
+    background-color: rgba(103,117,214,0.8);
+   
+}
+.cat1-w a .cat-n-s {
+    flex-direction: column;
+}
+.cat1-w a div .cat-n {
+    font-size: 28px;
     font-weight: 700;
     line-height: 1.1;
     padding-bottom: 8px;
     width: 114px;
+}
+.cat-n-sologan {
+    font-size: 14px;
+    color: #545353;
 }
