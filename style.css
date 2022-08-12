@@ -355,3 +355,68 @@ button {
     color: #fff;
     background: rgb(34, 34, 34);
 }
+/* PRODUCT END */
+footer {
+    background-color: #222;
+    padding-bottom: 32px;
+    padding-top: 75px;
+}
+.footer-container {
+    padding: 0 15px;
+    color: #fff;
+}
+.c-h-g-n {
+    padding-bottom: 50px;
+}
+.c-h-g-n h4 {
+    padding-bottom: 30px;
+}
+.c-h-g-n ul li {
+    padding-bottom: 10px;
+}
+.c-h-g-n ul li a {
+    color: rgb(229, 226, 226);
+    font-size: 13px;
+    font-weight: 400;
+}
+.c-h-g-n p {
+    color: rgb(229, 226, 226);
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 270px;
+    line-height: 1.923;
+    
+}
+.social {
+    padding-top: 27px;
+}
+.social a {
+    color: #b2b2b2;
+    font-size: 18px;
+    margin-right: 16px;
+    webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.social a:hover {
+    color: #717fe0;
+}
+.copyright-owner {
+    padding-top: 40px;
+}
+.payment-method ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.payment-method ul li {
+    margin: 1px;
+}
+.payment-method p {
+    font-size: 13px;
+    font-weight: 300;
+}
+.payment-method p a {
+    color: #717fe0;
+}
