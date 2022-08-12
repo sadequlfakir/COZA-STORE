@@ -330,6 +330,7 @@ button {
 }
 .love-list-add {
     cursor: pointer;
+    color: #999;
 }
 #love-l:hover {
    color: #717fe0;
@@ -405,6 +406,9 @@ footer {
 .copyright-owner {
     padding-top: 40px;
 }
+.payment-method {
+    padding-bottom: 18px;
+}
 .payment-method ul {
     display: flex;
     flex-wrap: wrap;
@@ -413,10 +417,12 @@ footer {
 .payment-method ul li {
     margin: 1px;
 }
-.payment-method p {
+.copyright-owner p {
     font-size: 13px;
     font-weight: 300;
+    text-align: center;
 }
-.payment-method p a {
-    color: #717fe0;
+.copyright-owner p a {
+    color: #007bff;
+    font-weight: 400;
 }
