@@ -13,15 +13,64 @@ li {
 .dp-flex {
     display: flex;
 }
+.desk-top-bar {
+    display: none;
+}
 .header-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 15px;
     color: #5a5959;
 }
 .coza-logo {
-    margin: 8px 0 8px;
+    margin: 8px 55px 8px 0;
+}
+/* DESK MENU */
+.desk-menu {
+    display: none;
+}
+.desk-menu-wrap {
+    display: flex;
+    align-items: center;
+}
+.desk-menu-wrap li {
+    padding: 20px 10px 20px 0;
+    margin: 0 4px 0 14px;
+    font-size: 14px;
+    position: relative;
+}
+.desk-menu-wrap li a {
+    color: #222;
+    font-weight: 500;
+}
+.desk-menu-wrap li:hover a {
+    color: #717fe0;
+}
+#home-color {
+    color: #6c7ae0;
+}
+.hot-lavel {
+    font-size: 10px;
+    line-height: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: -9px;
+    height: 15px;
+    min-width: 32px;
+    border-radius: 7px;
+    padding: 0 1px;
+    background-color: #f74877;
+}
+/* DESK MENU END */
+.s-c-h {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
 }
 .head-icon {
     position: relative;
@@ -54,6 +103,7 @@ li {
     text-decoration: none;
     padding: 0 10px;
     border-right: 1px solid rgba(255,255,255,0.3);
+    transition: all 0.5s;
 }
 .h-f {
     border-left: 1px solid rgba(255,255,255,0.3);
@@ -217,6 +267,7 @@ li {
 }
 button {
     background: none;
+    border: none;
 }
 .product-selector {
     display: flex;
@@ -483,6 +534,19 @@ footer {
 
 @media  (min-width: 992px) {
 
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .s-c-h .mobile-menu {
+        display: none;
+    }
+    .h-mobile-menu {
+        display: none !important;
+    }
+    .desk-menu {
+        display: block;
+    }
     .category {
         gap: 20px;
         display: grid;
@@ -499,5 +563,27 @@ footer {
     .footer-c-h-g-n {
         display: grid;
         grid-template-columns: auto auto auto auto;
+    }
+    .desk-top-bar {
+        display: block;
+        background-color: #222;
+    }
+    .right-top-bar {
+        cursor: pointer;
+    }
+    .f-s-0-100 div a:hover{
+        color: #6c7ae0;
+    }
+}
+
+@media  (min-width: 1100px) {
+    .full-page {
+        margin: 0 5%;
+    }
+    .header-menu {
+        margin: 0 5%;
+    }
+    .top-bar {
+        margin: 0 5%;
     }
 }
