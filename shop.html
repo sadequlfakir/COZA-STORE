@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
     <script src="scrip.js"></script>
     <script src="https://kit.fontawesome.com/ff8e335007.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="./assets/photo/favicon.ico">
@@ -124,7 +125,15 @@
                             </div>
                             <div class="search-filter">
                                 <button class="fil-search filter">Filter</button>
-                                <button class="fil-search search"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+                                <button onclick="psearchHandler(event)" class="fil-search search filter-button"><i class="fa-solid fa-magnifying-glass p-search-button"></i>Search</button>
+                            </div>
+                        </div>
+                        <div id="psearch" class="product-search">
+                            <div class="">
+                                <div class="product-search-wrap">
+                                    <i class="fa-solid fa-magnifying-glass filter-search"></i>
+                                    <input type="text" placeholder="Search">
+                                </div>
                             </div>
                         </div>
                     </div>

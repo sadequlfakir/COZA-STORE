@@ -4,3 +4,6 @@ function menuHandler(e) {
 function submenuHandler(e) {
     const sideBar = document.getElementById('submenu').classList.toggle('active');
 };
+function psearchHandler(e) {
+    const sideBar = document.getElementById('psearch').classList.toggle('active');
+};

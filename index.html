@@ -12,6 +12,7 @@
 </head>
 <body>
     <header>
+        <!-- Top bar -->
         <div class="desk-top-bar">
             <ul class="top-bar">
                 <li class="f-s-0-100">
@@ -29,6 +30,7 @@
                 </li>
             </ul>
         </div>
+        <!-- Header menu -->
         <div class="header-menu">
             <div class="coza-logo"><img src="./assets/photo/coza-logo.webp" alt=""></div>
             <div class="desk-menu">
@@ -66,6 +68,7 @@
                 <i onclick="menuHandler(event)" class="fa-solid fa-bars head-icon mobile-menu"></i>
             </div>
         </div>
+        <!-- Mobile menu -->
         <div id="menu" class="h-mobile-menu">
             <ul class="top-bar-mobile">
                 <li class="f-s-0-100">
@@ -188,6 +191,7 @@
                     <div class="product-o-text">
                         <h1>PRODUCT OVERVIEW</h1>
                     </div>
+                    <!-- Product Menu -->
                     <div class="product-cat-selector">
                         <div class="product-cat-selector-wrap">
                             <div class="product-selector">
@@ -200,12 +204,21 @@
                             </div>
                             <div class="search-filter">
                                 <button class="fil-search filter">Filter</button>
-                                <button class="fil-search search"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+                                <button onclick="psearchHandler(event)" class="fil-search search filter-button"><i class="fa-solid fa-magnifying-glass p-search-button"></i>Search</button>
+                            </div>
+                        </div>
+                        <div id="psearch" class="product-search">
+                            <div class="">
+                                <div class="product-search-wrap">
+                                    <i class="fa-solid fa-magnifying-glass filter-search"></i>
+                                    <input type="text" placeholder="Search">
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="all-product">
                         <div class="all-product-container">
+                            <!-- Product card -->
                             <div class="product">
                                 <div class="product-wrap">
                                     <div class="product-photo">
@@ -617,6 +630,7 @@
             </section>
         </div>
     </section>
+    <!-- Footer section -->
     <footer>
         <div class="footer-container">
             <div class="footer-c-h-g-n">
